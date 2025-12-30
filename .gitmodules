@@ -1,0 +1,3 @@
+[submodule "RepublicTK"]
+	path = RepublicTK
+	url = https://github.com/Ciorro/RepublicTK.git
