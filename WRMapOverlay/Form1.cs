@@ -57,7 +57,7 @@ public partial class Form1 : Form, INotifyPropertyChanged
         {
             Settings.GameDirectory = directory;
             ReloadGameSaveList();
-            UpdateTerrainDetphWarning();
+            UpdateTerrainDepthWarning();
         };
 
         Settings.Load();
@@ -71,7 +71,7 @@ public partial class Form1 : Form, INotifyPropertyChanged
     protected override void OnActivated(EventArgs e)
     {
         base.OnActivated(e);
-        UpdateTerrainDetphWarning();
+        UpdateTerrainDepthWarning();
     }
 
     private void BrowseGameLocation_Click(object sender, EventArgs e)
@@ -189,7 +189,7 @@ public partial class Form1 : Form, INotifyPropertyChanged
         }
     }
 
-    private void UpdateTerrainDetphWarning()
+    private void UpdateTerrainDepthWarning()
     {
         if (!string.IsNullOrEmpty(GameManager.GameDirectoryRoot))
         {

@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/RepublicTK/">
+    <Project Path="RepublicTK/RepublicTK/RepublicTK.csproj" />
+  </Folder>
+  <Project Path="WRMapOverlay/WRMapOverlay.csproj" />
+</Solution>

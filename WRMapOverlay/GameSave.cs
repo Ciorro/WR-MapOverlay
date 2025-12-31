@@ -104,7 +104,7 @@ public record GameSave(string Directory)
 
     private Biome GetBiome(Script script)
     {
-        return 
+        return
             script.FindToken("$TYPE_SIBERIA") ? Biome.Siberia :
             script.FindToken("$TYPE_DESERT") ? Biome.Desert :
             script.FindToken("$TYPE_JUNGLE") ? Biome.Jungle :

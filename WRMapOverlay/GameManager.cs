@@ -18,7 +18,7 @@ public class GameManager
 
         var directoryFiles = Directory.GetFiles(gameDirectoryRoot)
             .Select(Path.GetFileName);
-        
+
         if (!directoryFiles.Contains(GameExecutableFileName))
         {
             throw new ArgumentException($"\"{gameDirectoryRoot}\" is not a valid game directory.");

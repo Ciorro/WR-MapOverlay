@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace WRMapOverlay;
+﻿namespace WRMapOverlay;
 
 public class Settings
 {
