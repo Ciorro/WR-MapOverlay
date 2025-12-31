@@ -13,6 +13,7 @@ A simple utility for **Workers & Resources: Soviet Republic** that allows you to
 - Select the save you want to modify. The app will only display saves from the `save_terraineditor` folder, but you can choose any save that **is not** compressed.
 - Click **Set overlay** and select your image.
 - Click **Remove overlay** to restore the default ground texture.
+- Reload the game.
 
 ## Notes
 
